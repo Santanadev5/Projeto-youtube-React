@@ -37,3 +37,10 @@ export const MenuItem = styled.div <{ openMenu: boolean }>`
 export const ButtonIcon = styled.img `
     width: 25px;
 `;
+
+export const Divider = styled.div`
+    width: 90%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+`;
