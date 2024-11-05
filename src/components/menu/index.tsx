@@ -17,22 +17,22 @@ import { useNavigate } from "react-router-dom";
 
 const menuItems = [
     { icon: InicioIcon, label: "Início", link: '/' },
-    { icon: ShortsIcon, label: "Shorts", link: '/' },
-    { icon: InscricaoIcon, label: "Inscrições" , link: '/'},
+    { icon: ShortsIcon, label: "Shorts", link: '/shorts' },
+    { icon: InscricaoIcon, label: "Inscrições" , link: '/registration'},
     { divider: true },
     { icon: BibliotecaIcon, label: "Biblioteca" , link: '/library'},
     { icon: HistoriciIcon, label: "Histórico", link: '/history' },
     { divider: true },
     { label: "EXPLORAR", isHeader: true },
-    { icon: FireIcon, label: "Em alta" , link: '/'},
-    { icon: ShoppingIcon, label: "Shopping" , link: '/'},
-    { icon: MusicaIcon, label: "Música" , link: '/'},
-    { icon: FilmeIcon, label: "Filmes" , link: '/'},
-    { icon: LiveIcon, label: "Ao vivo" , link: '/'},
-    { icon: JogoIcon, label: "Jogos" , link: '/'},
-    { icon: NoticiaIcon, label: "Notícias" , link: '/'},
-    { icon: EsporteIcon, label: "Esportes" , link: '/'},
-    { icon: IdeiaIcon, label: "Aprender" , link: '/'},
+    { icon: FireIcon, label: "Em alta" , link: '/High'},
+    { icon: ShoppingIcon, label: "Shopping" , link: '/shopping'},
+    { icon: MusicaIcon, label: "Música" , link: '/music'},
+    { icon: FilmeIcon, label: "Filmes" , link: '/movie'},
+    { icon: LiveIcon, label: "Ao vivo" , link: '/live'},
+    { icon: JogoIcon, label: "Jogos" , link: '/game'},
+    { icon: NoticiaIcon, label: "Notícias" , link: '/news'},
+    { icon: EsporteIcon, label: "Esportes" , link: '/sport'},
+    { icon: IdeiaIcon, label: "Aprender" , link: '/learn'},
 ];
 
 interface IProps {
