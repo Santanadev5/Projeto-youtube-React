@@ -28,7 +28,7 @@ function App() {
         <Header openMenu={ openMenu } setOpenMenu={ setOpenMenu } />
         <div style={{ width: '100%', display: 'flex' }}>
           <Menu openMenu={ openMenu } />
-          <div style={{width: '100%'}}>
+          <div style={{width: '100%', padding: '50px 70px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center' }}>
             <Routes>
 
               <Route path="/" element={<Home />} />
