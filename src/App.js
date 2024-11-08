@@ -17,37 +17,40 @@ import News from "./pages/news";
 import Sport from "./pages/sport";
 import Learn from "./pages/learn";
 
-
 function App() {
-  const [openMenu, setOpenMenu] = useState(true)
-
+  const [openMenu, setOpenMenu] = useState(true);
 
   return (
     <BrowserRouter>
       <div className="App">
-        <Header openMenu={ openMenu } setOpenMenu={ setOpenMenu } />
-        <div style={{ width: '100%', display: 'flex' }}>
-          <Menu openMenu={ openMenu } />
-          <div style={{width: '100%', padding: '50px 70px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center' }}>
+        <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
+        <div style={{ width: "100%", display: "flex" }}>
+          <Menu openMenu={openMenu} />
+          <div
+            style={{
+              width: "100%",
+              padding: "50px 70px",
+              boxSizing: "border-box",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <Routes>
-
-              <Route path="/" element={<Home />} />
-              <Route path="/library" element={ <Library />} />
-              <Route path="/history" element={ <History />} />
-              <Route path="/shorts" element={ <Shorts />} />
-              <Route path="/registration" element={ <Registration />} />
-              <Route path="/high" element={ <High />} />
-              <Route path="/shopping" element={ <Shopping />} />
-              <Route path="/music" element={ <Music />} />
-              <Route path="/movie" element={ <Movie />} />
-              <Route path="/live" element={ <Live />} />
-              <Route path="/game" element={ <Game />} />
-              <Route path="/news" element={ <News />} />
-              <Route path="/sport" element={ <Sport />} />
-              <Route path="/learn" element={ <Learn />} />
-
+              <Route path="/" element={<Home openMenu={openMenu} />} /> 
+              <Route path="/library" element={<Library />} />
+              <Route path="/history" element={<History />} />
+              <Route path="/shorts" element={<Shorts />} />
+              <Route path="/registration" element={<Registration />} />
+              <Route path="/high" element={<High />} />
+              <Route path="/shopping" element={<Shopping />} />
+              <Route path="/music" element={<Music />} />
+              <Route path="/movie" element={<Movie />} />
+              <Route path="/live" element={<Live />} />
+              <Route path="/game" element={<Game />} />
+              <Route path="/news" element={<News />} />
+              <Route path="/sport" element={<Sport />} />
+              <Route path="/learn" element={<Learn />} />
             </Routes>
-
           </div>
         </div>
       </div>

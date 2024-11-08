@@ -1,23 +1,19 @@
+import React from "react";
 import VideoComponent from "../../components/videoComponent";
 import { Container } from "./styles";
 
-function Home() {
-    return (
+interface HomeProps {
+  openMenu: boolean;
+}
 
-        <Container>
-
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-            <VideoComponent />
-
-        </Container>
-            
-    );
+function Home({ openMenu }: HomeProps) {
+  return (
+    <Container openMenu={openMenu}>
+      {Array.from({ length: 10 }, (_, i) => (
+        <VideoComponent key={i} />
+      ))}
+    </Container>
+  );
 }
 
 export default Home;
