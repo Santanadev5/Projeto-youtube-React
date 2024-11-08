@@ -1,6 +1,7 @@
 import React from "react";
 import VideoComponent from "../../components/videoComponent";
-import { Container } from "./styles";
+import { Container, Wrapper } from "./styles"; // Importando Wrapper
+import FilterBar from "../../components/filterBar";
 
 interface HomeProps {
   openMenu: boolean;
@@ -8,11 +9,14 @@ interface HomeProps {
 
 function Home({ openMenu }: HomeProps) {
   return (
-    <Container openMenu={openMenu}>
-      {Array.from({ length: 10 }, (_, i) => (
-        <VideoComponent key={i} />
-      ))}
-    </Container>
+    <Wrapper>
+      <FilterBar /> {/* Componente de filtro */}
+      <Container openMenu={openMenu}> {/* Grid de vídeos */}
+        {Array.from({ length: 10 }, (_, i) => (
+          <VideoComponent key={i} />
+        ))}
+      </Container>
+    </Wrapper>
   );
 }
 
