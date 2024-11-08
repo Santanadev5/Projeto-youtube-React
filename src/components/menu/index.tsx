@@ -15,6 +15,7 @@ import EsporteIcon from '../../assets/trofeu.png';
 import IdeiaIcon from '../../assets/ideia.png';
 import { useNavigate } from "react-router-dom";
 
+
 const menuItems = [
     { icon: InicioIcon, label: "Início", link: '/' },
     { icon: ShortsIcon, label: "Shorts", link: '/shorts' },
@@ -63,6 +64,7 @@ function Menu({ openMenu }: IProps) {
                 )
             )}
         </Container>
+        
     );
 }
 

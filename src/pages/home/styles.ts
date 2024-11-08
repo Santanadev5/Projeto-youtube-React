@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0; /* Ajuste o espaçamento conforme necessário */
+  padding: 20px 0; 
 `;
 
 export const Container = styled.div<{ openMenu: boolean }>`
@@ -16,5 +16,5 @@ export const Container = styled.div<{ openMenu: boolean }>`
   grid-template-columns: ${({ openMenu }) => (openMenu ? "repeat(4, 1fr)" : "repeat(5, 1fr)")};
   column-gap: 20px;
   row-gap: 50px;
-  margin-top: 20px; /* Espaçamento entre a barra de filtro e o grid de vídeos */
+  margin-top: 20px; 
 `;

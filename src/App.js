@@ -29,7 +29,7 @@ function App() {
           <div
             style={{
               width: "100%",
-              padding: "50px 70px",
+              padding: "0px 60px",
               boxSizing: "border-box",
               display: "flex",
               justifyContent: "center",
