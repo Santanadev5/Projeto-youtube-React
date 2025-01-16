@@ -16,6 +16,8 @@ import Game from "./pages/game";
 import News from "./pages/news";
 import Sport from "./pages/sport";
 import Learn from "./pages/learn";
+import Login from "./pages/login";
+import { UserStorage } from "./context/userContext";
 
 function App() {
   const [openMenu, setOpenMenu] = useState(true);
@@ -52,6 +54,7 @@ function App() {
                 <Route path="/news" element={<News />} />
                 <Route path="/sport" element={<Sport />} />
                 <Route path="/learn" element={<Learn />} />
+                <Route path="/login" element={<Login />} />
               </Routes>
             </div>
           </div>
