@@ -6,6 +6,8 @@ import MicIcon from '../../assets/formato-preto-do-microfone.png';
 import VideoIcon from '../../assets/camera-de-video.png';
 import NotificationIcon from '../../assets/notificacao.png';
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { UserContext } from "../../context/userContext";
 
 interface IProps {
     openMenu: boolean,
@@ -14,6 +16,8 @@ interface IProps {
 }
 
 function Header({ openMenu, setOpenMenu}: IProps){
+
+    const { login } = useContext(UserContext)
 
     const navigate = useNavigate();
 
@@ -51,9 +55,17 @@ function Header({ openMenu, setOpenMenu}: IProps){
                     <ButtonIcon alt="" src={ NotificationIcon }/>
                 </ButtonContainer> 
 
-                <ButtonContainer margin ='0 0 0 10px' onClick={() => navigate ('/login')}>
-                    n
-                </ButtonContainer> 
+                {login?
+
+                    <ButtonContainer margin ='0 0 0 10px' >
+                    N
+                    </ButtonContainer>
+
+                :
+                <button onClick={() => navigate ('/login')}>Fazer Login</button>
+                }
+
+                 
             </HeaderButton>
 
         </Container>
