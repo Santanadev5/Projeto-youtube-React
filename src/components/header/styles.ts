@@ -74,3 +74,25 @@ export const HeaderButton = styled.div `
     width: 200px;
     display: flex;
 `;
+
+export const LoginButton = styled.button`
+    background-color:  #CC0000; /* Vermelho padrão */  
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 6px 12px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+
+    &:hover {
+        background-color: #CC0000; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    }
+
+    &:active {
+        background-color: #FF4D4D;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+`;

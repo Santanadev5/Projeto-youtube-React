@@ -8,6 +8,8 @@ import NotificationIcon from '../../assets/notificacao.png';
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { UserContext } from "../../context/userContext";
+import { LoginButton } from "./styles";
+
 
 interface IProps {
     openMenu: boolean,
@@ -55,15 +57,12 @@ function Header({ openMenu, setOpenMenu}: IProps){
                     <ButtonIcon alt="" src={ NotificationIcon }/>
                 </ButtonContainer> 
 
-                {login?
+                {login ? (
+    <ButtonContainer margin="0 0 0 10px">N</ButtonContainer>
+) : (
+    <LoginButton onClick={() => navigate('/login')}>Fazer Login</LoginButton>
+)}
 
-                    <ButtonContainer margin ='0 0 0 10px' >
-                    N
-                    </ButtonContainer>
-
-                :
-                <button onClick={() => navigate ('/login')}>Fazer Login</button>
-                }
 
                  
             </HeaderButton>
