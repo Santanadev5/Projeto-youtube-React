@@ -27,11 +27,11 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 3,
-      title: "Cool Clip",
-      date: "20 de nov. de 2023",
-      thumbnail: "https://via.placeholder.com/200",
-      channelName: "Cool Studio",
-      channelColor: "green",
+      title: "Playstation 6 em FASE AVANÇADA ",
+      date: "20 de jan. de 2025",
+      thumbnail: "https://i.ytimg.com/an_webp/_OK6W4PpAss/mqdefault_6s.webp?du=3000&sqp=CIihwbwG&rs=AOn4CLAGDwSh_cuABXmHaUULDMwB28p6Og",
+      channelName: "Gameplayrj",
+      channelColor: "blue",
     },
   ];
 
