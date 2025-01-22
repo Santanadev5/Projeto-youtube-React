@@ -11,38 +11,6 @@ function Home({ openMenu }: HomeProps) {
   const cards = [
     {
       id: 1,
-      title: "The INCREDIBLE...",
-      date: "25 de out. de 2012",
-      thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
-      channelName: "South Park",
-      channelColor: "red", 
-    },
-    {
-      id: 2,
-      title: "COMO TUDO DEVE SER",
-      date: "25 de abr. de 2014",
-      thumbnail: "https://i.ytimg.com/vi/GNGJV7wFAl0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDNaFf1IcyxSeLgfcN6bw4xSCRGfQ",
-      channelName: "Charlie Brown Jr.",
-      channelColor: "purple",
-    },
-    {
-      id: 3,
-      title: "Playstation 6 em FASE AVANÇADA ",
-      date: "20 de jan. de 2025",
-      thumbnail: "https://i.ytimg.com/vi/FWgxmZgIKO8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSOD_PhV4uJM-Rwr2e1sP3TBPOTA",
-      channelName: "Gameplayrj",
-      channelColor: "blue",
-    },
-    {
-      id: 4,
-      title: "QUEM É O PAGODEIRO?",
-      date: "11 de abr. de 2024",
-      thumbnail: "https://i.ytimg.com/vi/xK30Iabee_o/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5B2gGrkzaiieAcsrECC-M3VH5Ew",
-      channelName: "Aqueles Caras",
-      channelColor: "black",
-    },
-    {
-      id: 5,
       title: "Tour do SETUP 2025!",
       date: "29 de set. de 2024",
       thumbnail: "https://i.ytimg.com/vi/Entjz3c0xrc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB3bDPXqmf0do4DaTfWebTzIQf_gw",
@@ -50,7 +18,7 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "purple",
     },
     {
-      id: 6,
+      id: 2,
       title: "Carreira digital",
       date: "12 de nov. de 2024",
       thumbnail: "https://i.ytimg.com/vi/6VdMedQGNhw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeEFG0r7I_aEeFEhelEaTMaoCypg",
@@ -58,15 +26,15 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "blue",
     },
     {
-      id: 7,
+      id: 3,
       title: "PSG X MANCHESTER CITY",
       date: "21 de jan. de 2025",
-      thumbnail: "https://i.ytimg.com/an_webp/shPbF0l1U3c/mqdefault_6s.webp?du=3000&sqp=CLubxbwG&rs=AOn4CLCvv0CIDwlpA_xeewf33CaNOyfHXg",
+      thumbnail: "https://i.ytimg.com/vi/DdRzijp3O9A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAiEXleDlwHpx0EWn5uUTG8dOkPwA",
       channelName: "TNT Sports Brasil",
       channelColor: "pink",
     },
     {
-      id: 8,
+      id: 4,
       title: "PROFISSÃO DO FUTURO",
       date: "8 de ago. de 2024",
       thumbnail: "https://i.ytimg.com/vi/Q0YYA8hSV8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBA3RkyTJpX-JlF4AI23SLZQBSnFQ",
@@ -74,12 +42,44 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "black",
     },
     {
-      id: 9,
+      id: 5,
       title: "PROGRAMAÇÃO !!!",
       date: "18 de nov. de 2023",
       thumbnail: "https://i.ytimg.com/vi/o17EjWGHYBo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD50SlrnAoQ4hn413YInRleDQsCmA",
       channelName: "JovemScript",
       channelColor: "yellow",
+    },
+    {
+      id: 6,
+      title: "DEVS EM 2025...",
+      date: "115 mil visualizações há 1 mês",
+      thumbnail: "https://i.ytimg.com/vi/DAi-TiQZjlg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDU3DBWCmsuy-dC039oqoxW9vLptg",
+      channelName: "Código Fonte TV",
+      channelColor: "Salmon", 
+    },
+    {
+      id: 7,
+      title: "COMO TUDO DEVE SER",
+      date: "25 de abr. de 2014",
+      thumbnail: "https://i.ytimg.com/vi/GNGJV7wFAl0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDNaFf1IcyxSeLgfcN6bw4xSCRGfQ",
+      channelName: "Charlie Brown Jr.",
+      channelColor: "purple",
+    },
+    {
+      id: 8,
+      title: "Playstation 6 em FASE AVANÇADA ",
+      date: "20 de jan. de 2025",
+      thumbnail: "https://i.ytimg.com/vi/FWgxmZgIKO8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSOD_PhV4uJM-Rwr2e1sP3TBPOTA",
+      channelName: "Gameplayrj",
+      channelColor: "blue",
+    },
+    {
+      id: 9,
+      title: "QUEM É O PAGODEIRO?",
+      date: "11 de abr. de 2024",
+      thumbnail: "https://i.ytimg.com/vi/xK30Iabee_o/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5B2gGrkzaiieAcsrECC-M3VH5Ew",
+      channelName: "Aqueles Caras",
+      channelColor: "black",
     },
     {
       id: 10,
@@ -97,9 +97,16 @@ function Home({ openMenu }: HomeProps) {
       channelName: "Experiência Flamino",
       channelColor: "Brown",
     },
+    {
+      id: 12,
+      title: "The INCREDIBLE...",
+      date: "25 de out. de 2012",
+      thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
+      channelName: "South Park",
+      channelColor: "red", 
+    },
   ];
 
-  //https://i.ytimg.com/vi/DAi-TiQZjlg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDU3DBWCmsuy-dC039oqoxW9vLptg
   //https://i.ytimg.com/vi/ML1fgVfxuRU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-lmqPe07GnnBPBRZcqkKvIOfFCw
   //https://i.ytimg.com/vi/gMxQ8vxH9Vk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbeGU1NfrudYilUBrwvtceuhY75A
  //https://i.ytimg.com/vi/3vdzghRCprU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTSnUZs6eooPww9tVqzHj5s9qZgQ
