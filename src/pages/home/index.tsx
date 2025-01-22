@@ -27,11 +27,11 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 3,
-      title: "PSG X MANCHESTER CITY",
-      date: "21 de jan. de 2025",
-      thumbnail: "https://i.ytimg.com/vi/DdRzijp3O9A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAiEXleDlwHpx0EWn5uUTG8dOkPwA",
-      channelName: "TNT Sports Brasil",
-      channelColor: "pink",
+      title: "PROGRAMAÇÃO e SISTEMAS",
+      date: "507 mil visualizações  há 1 ano",
+      thumbnail: "https://i.ytimg.com/vi/ML1fgVfxuRU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-lmqPe07GnnBPBRZcqkKvIOfFCw",
+      channelName: "Manual do Mundo",
+      channelColor: "blue", 
     },
     {
       id: 4,
@@ -99,6 +99,22 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 12,
+      title: "PSG X MANCHESTER CITY",
+      date: "21 de jan. de 2025",
+      thumbnail: "https://i.ytimg.com/vi/DdRzijp3O9A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAiEXleDlwHpx0EWn5uUTG8dOkPwA",
+      channelName: "TNT Sports Brasil",
+      channelColor: "pink",
+    },
+    {
+      id: 13,
+      title: "Programação, por onde começar ?",
+      date: "599 mil visualizações  há 1 ano",
+      thumbnail: "https://i.ytimg.com/vi/gMxQ8vxH9Vk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbeGU1NfrudYilUBrwvtceuhY75A",
+      channelName: "Attekita Dev",
+      channelColor: "Violet", 
+    },
+    {
+      id: 13,
       title: "The INCREDIBLE...",
       date: "25 de out. de 2012",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
@@ -107,8 +123,8 @@ function Home({ openMenu }: HomeProps) {
     },
   ];
 
-  //https://i.ytimg.com/vi/ML1fgVfxuRU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-lmqPe07GnnBPBRZcqkKvIOfFCw
-  //https://i.ytimg.com/vi/gMxQ8vxH9Vk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbeGU1NfrudYilUBrwvtceuhY75A
+  //
+  //
  //https://i.ytimg.com/vi/3vdzghRCprU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTSnUZs6eooPww9tVqzHj5s9qZgQ
  //https://i.ytimg.com/vi/WMACMQzkKvU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBT1SQiIf1Tlyr-7XFMGeARMDf0oA
  //https://i.ytimg.com/vi/ZPcG9PCfagM/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYaSA3KHIwDw==&rs=AOn4CLBdkogz00IZPaA964bGgJr7Gxs84w
