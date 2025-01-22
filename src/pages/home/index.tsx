@@ -33,6 +33,14 @@ function Home({ openMenu }: HomeProps) {
       channelName: "Gameplayrj",
       channelColor: "blue",
     },
+    {
+      id: 4,
+      title: "QUEM É O CASAL?",
+      date: "11 de abr. de 2024",
+      thumbnail: "https://i.ytimg.com/an_webp/xK30Iabee_o/mqdefault_6s.webp?du=3000&sqp=CKqTwbwG&rs=AOn4CLCeb-_buUbLAnw4NTqpufUF9Mfxbg",
+      channelName: "Aqueles Caras",
+      channelColor: "black",
+    },
   ];
 
   return (
