@@ -49,6 +49,14 @@ function Home({ openMenu }: HomeProps) {
       channelName: "BRKsEDU",
       channelColor: "purple",
     },
+    {
+      id: 6,
+      title: "Carreira digital",
+      date: "12 de nov. de 2024",
+      thumbnail: "https://i.ytimg.com/vi/6VdMedQGNhw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeEFG0r7I_aEeFEhelEaTMaoCypg",
+      channelName: "Curso em Vídeo",
+      channelColor: "blue",
+    },
   ];
 
   return (
