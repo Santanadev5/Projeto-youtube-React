@@ -57,6 +57,14 @@ function Home({ openMenu }: HomeProps) {
       channelName: "Curso em Vídeo",
       channelColor: "blue",
     },
+    {
+      id: 7,
+      title: "PSG X MANCHESTER CITY",
+      date: "21 de jan. de 2025",
+      thumbnail: "https://i.ytimg.com/an_webp/shPbF0l1U3c/mqdefault_6s.webp?du=3000&sqp=CLubxbwG&rs=AOn4CLCvv0CIDwlpA_xeewf33CaNOyfHXg",
+      channelName: "TNT Sports Brasil",
+      channelColor: "pink",
+    },
   ];
 
   return (
