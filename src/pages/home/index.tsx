@@ -41,6 +41,14 @@ function Home({ openMenu }: HomeProps) {
       channelName: "Aqueles Caras",
       channelColor: "black",
     },
+    {
+      id: 5,
+      title: "TIER LIST de DONKEY KONG !!!",
+      date: "29 de set. de 2024",
+      thumbnail: "https://i.ytimg.com/an_webp/rC7ow7Rj0ZA/mqdefault_6s.webp?du=3000&sqp=CICmwbwG&rs=AOn4CLDE1Htqw-ZYyvU72WL1W48gNuJSSg",
+      channelName: "BRKsEDU",
+      channelColor: "purple",
+    },
   ];
 
   return (
