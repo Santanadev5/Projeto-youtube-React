@@ -11,7 +11,7 @@ function Home({ openMenu }: HomeProps) {
     <Wrapper>
       <FilterBar /> {}
       <Container openMenu={openMenu}> {}
-        {Array.from({ length: 10 }, (_, i) => (
+        {Array.from({ length: 1 }, (_, i) => (
           <VideoComponent key={i} />
         ))}
       </Container>

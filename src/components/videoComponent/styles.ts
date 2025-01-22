@@ -6,7 +6,7 @@ export const Container = styled.div `
 
 export const ImageBanner = styled.img `
     width : 100%;
-    height : 210px;
+    height : 170px;
     border-radius : 12px;
 `;
 
