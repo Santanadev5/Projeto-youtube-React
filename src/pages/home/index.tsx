@@ -15,7 +15,7 @@ function Home({ openMenu }: HomeProps) {
       date: "25 de out. de 2012",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
       channelName: "South Park",
-      channelColor: "red", // Cor do círculo do canal
+      channelColor: "red", 
     },
     {
       id: 2,
@@ -29,21 +29,21 @@ function Home({ openMenu }: HomeProps) {
       id: 3,
       title: "Playstation 6 em FASE AVANÇADA ",
       date: "20 de jan. de 2025",
-      thumbnail: "https://yt3.googleusercontent.com/LbAC4_dtY0PwM_yZfSfBe0Q9QjvAskCUgEHutqtZgl2p8MW4DSwROiZ_gsSwHYJgYyltiwl0Pdw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      thumbnail: "https://i.ytimg.com/vi/FWgxmZgIKO8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSOD_PhV4uJM-Rwr2e1sP3TBPOTA",
       channelName: "Gameplayrj",
       channelColor: "blue",
     },
     {
       id: 4,
-      title: "QUEM É O CASAL?",
+      title: "QUEM É O PAGODEIRO?",
       date: "11 de abr. de 2024",
-      thumbnail: "https://i.ytimg.com/an_webp/9zEfN9wXnnU/mqdefault_6s.webp?du=3000&sqp=CJaZxbwG&rs=AOn4CLAaC1Zjkxk_1eTxDqqecLeBCO1tUQ",
+      thumbnail: "https://i.ytimg.com/vi/xK30Iabee_o/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5B2gGrkzaiieAcsrECC-M3VH5Ew",
       channelName: "Aqueles Caras",
       channelColor: "black",
     },
     {
       id: 5,
-      title: "TIER LIST de DONKEY KONG !!!",
+      title: "Tour do SETUP 2025!",
       date: "29 de set. de 2024",
       thumbnail: "https://i.ytimg.com/vi/Entjz3c0xrc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB3bDPXqmf0do4DaTfWebTzIQf_gw",
       channelName: "BRKsEDU",
@@ -87,9 +87,26 @@ function Home({ openMenu }: HomeProps) {
       date: "12 de abr. de 2023",
       thumbnail: "https://i.ytimg.com/vi/nipk9E4SJl8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAC8E0XBLUrTBYkJetggu_ZDUqCJw",
       channelName: "Refatorando",
-      channelColor: "yellow",
+      channelColor: "Orange",
+    },
+    {
+      id: 11,
+      title: "Estudando PROGRAMAÇÃO",
+      date: "17 de mar. de 2023",
+      thumbnail: "https://i.ytimg.com/vi/CXXyZq3A_rI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC0W2CVzgXwKr2xbudNwj33T9V2yA",
+      channelName: "Experiência Flamino",
+      channelColor: "Brown",
     },
   ];
+
+  //https://i.ytimg.com/vi/DAi-TiQZjlg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDU3DBWCmsuy-dC039oqoxW9vLptg
+  //https://i.ytimg.com/vi/ML1fgVfxuRU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-lmqPe07GnnBPBRZcqkKvIOfFCw
+  //https://i.ytimg.com/vi/gMxQ8vxH9Vk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbeGU1NfrudYilUBrwvtceuhY75A
+ //https://i.ytimg.com/vi/3vdzghRCprU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTSnUZs6eooPww9tVqzHj5s9qZgQ
+ //https://i.ytimg.com/vi/WMACMQzkKvU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBT1SQiIf1Tlyr-7XFMGeARMDf0oA
+ //https://i.ytimg.com/vi/ZPcG9PCfagM/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYaSA3KHIwDw==&rs=AOn4CLBdkogz00IZPaA964bGgJr7Gxs84w
+ //https://i.ytimg.com/vi/G4eTjFvp8CU/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYUiBlKFIwDw==&rs=AOn4CLBRzP3H7P3VkU85OXxPpyt0ZiYDLQ
+
 
   return (
     <Wrapper>
