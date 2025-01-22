@@ -114,7 +114,23 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "Violet", 
     },
     {
-      id: 13,
+      id: 14,
+      title: "Como memorizar TUDO",
+      date: "3,3 mi de visualizações  há 9 meses",
+      thumbnail: "https://i.ytimg.com/vi/3vdzghRCprU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTSnUZs6eooPww9tVqzHj5s9qZgQ",
+      channelName: "Ciência Todo Dia",
+      channelColor: "Turquoise", 
+    },
+    {
+      id: 15,
+      title: "O MELHOR JOGO DE FUTEBOL",
+      date: "1 mi de visualizações  há 3 semanas",
+      thumbnail: "https://i.ytimg.com/vi/WMACMQzkKvU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBT1SQiIf1Tlyr-7XFMGeARMDf0oA",
+      channelName: "Julio Cocielo",
+      channelColor: "Beige", 
+    },
+    {
+      id: 16,
       title: "The INCREDIBLE...",
       date: "25 de out. de 2012",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
@@ -123,10 +139,8 @@ function Home({ openMenu }: HomeProps) {
     },
   ];
 
-  //
-  //
- //https://i.ytimg.com/vi/3vdzghRCprU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTSnUZs6eooPww9tVqzHj5s9qZgQ
- //https://i.ytimg.com/vi/WMACMQzkKvU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBT1SQiIf1Tlyr-7XFMGeARMDf0oA
+  
+ 
  //https://i.ytimg.com/vi/ZPcG9PCfagM/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYaSA3KHIwDw==&rs=AOn4CLBdkogz00IZPaA964bGgJr7Gxs84w
  //https://i.ytimg.com/vi/G4eTjFvp8CU/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYUiBlKFIwDw==&rs=AOn4CLBRzP3H7P3VkU85OXxPpyt0ZiYDLQ
 
