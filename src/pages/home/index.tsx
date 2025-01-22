@@ -66,12 +66,28 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "pink",
     },
     {
-      id: 7,
+      id: 8,
       title: "PROFISSÃO DO FUTURO",
       date: "8 de ago. de 2024",
       thumbnail: "https://i.ytimg.com/vi/Q0YYA8hSV8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBA3RkyTJpX-JlF4AI23SLZQBSnFQ",
       channelName: "Cortes do Flow [OFICIAL]",
       channelColor: "black",
+    },
+    {
+      id: 9,
+      title: "PROGRAMAÇÃO !!!",
+      date: "18 de nov. de 2023",
+      thumbnail: "https://i.ytimg.com/vi/o17EjWGHYBo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD50SlrnAoQ4hn413YInRleDQsCmA",
+      channelName: "JovemScript",
+      channelColor: "yellow",
+    },
+    {
+      id: 10,
+      title: "TOP 5 áreas de TI",
+      date: "12 de abr. de 2023",
+      thumbnail: "https://i.ytimg.com/vi/nipk9E4SJl8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAC8E0XBLUrTBYkJetggu_ZDUqCJw",
+      channelName: "Refatorando",
+      channelColor: "yellow",
     },
   ];
 
