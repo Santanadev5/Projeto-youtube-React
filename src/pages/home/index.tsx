@@ -65,6 +65,14 @@ function Home({ openMenu }: HomeProps) {
       channelName: "TNT Sports Brasil",
       channelColor: "pink",
     },
+    {
+      id: 7,
+      title: "PROFISSÃO DO FUTURO",
+      date: "8 de ago. de 2024",
+      thumbnail: "https://i.ytimg.com/vi/Q0YYA8hSV8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBA3RkyTJpX-JlF4AI23SLZQBSnFQ",
+      channelName: "Cortes do Flow [OFICIAL]",
+      channelColor: "black",
+    },
   ];
 
   return (
