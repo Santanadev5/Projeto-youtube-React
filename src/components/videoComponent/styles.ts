@@ -24,6 +24,7 @@ export const ChannelImage = styled.div`
     align-items : center ;
     border-radius : 50%;
     margin-right : 10px;
+    color : white ;
 `;
 
 export const TextContainer = styled.div `
