@@ -8,6 +8,7 @@ export const ImageBanner = styled.img `
     width : 100%;
     height : 170px;
     border-radius : 12px;
+    cursor: pointer;
 `;
 
 export const TitleContainer = styled.div`
@@ -25,6 +26,7 @@ export const ChannelImage = styled.div`
     border-radius : 50%;
     margin-right : 10px;
     color : white ;
+    cursor: pointer;
 `;
 
 export const TextContainer = styled.div `

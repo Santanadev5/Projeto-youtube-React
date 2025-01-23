@@ -14,7 +14,7 @@ import {
       date: string;
       thumbnail: string;
       channelName: string;
-      channelColor: string; // Nova propriedade para mudar a cor
+      channelColor: string; 
     };
   }
   
