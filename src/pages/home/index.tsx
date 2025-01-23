@@ -131,19 +131,29 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 16,
+      title: "Matuê - Máquina do Tempo",
+      date: "161 mi de visualizações  há 4 anos",
+      thumbnail: "https://i.ytimg.com/vi/ZPcG9PCfagM/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYaSA3KHIwDw==&rs=AOn4CLBdkogz00IZPaA964bGgJr7Gxs84w",
+      channelName: "30PRAUM",
+      channelColor: "Violet", 
+    },
+    {
+      id: 17,
+      title: "Poesia Acústica #7",
+      date: "202 mi de visualizações  há 5 anos",
+      thumbnail: "https://i.ytimg.com/vi/G4eTjFvp8CU/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYUiBlKFIwDw==&rs=AOn4CLBRzP3H7P3VkU85OXxPpyt0ZiYDLQ",
+      channelName: "PineappleStormTV",
+      channelColor: "Orange", 
+    },
+    {
+      id: 18,
       title: "The INCREDIBLE...",
-      date: "25 de out. de 2012",
+      date: "202 mi de visualizações  há 5 anos",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
       channelName: "South Park",
       channelColor: "red", 
     },
   ];
-
-  
- 
- //https://i.ytimg.com/vi/ZPcG9PCfagM/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYaSA3KHIwDw==&rs=AOn4CLBdkogz00IZPaA964bGgJr7Gxs84w
- //https://i.ytimg.com/vi/G4eTjFvp8CU/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYUiBlKFIwDw==&rs=AOn4CLBRzP3H7P3VkU85OXxPpyt0ZiYDLQ
-
 
   return (
     <Wrapper>
