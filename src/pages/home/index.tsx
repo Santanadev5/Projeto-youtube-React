@@ -12,7 +12,7 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 1,
       title: "Tour do SETUP 2025!",
-      date: "29 de set. de 2024",
+      date: "331 mil visualizações há 5 dias",
       thumbnail: "https://i.ytimg.com/vi/Entjz3c0xrc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB3bDPXqmf0do4DaTfWebTzIQf_gw",
       channelName: "BRKsEDU",
       channelColor: "purple",
@@ -20,7 +20,7 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 2,
       title: "Carreira digital",
-      date: "12 de nov. de 2024",
+      date: "22 mil visualizações há 2 meses",
       thumbnail: "https://i.ytimg.com/vi/6VdMedQGNhw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeEFG0r7I_aEeFEhelEaTMaoCypg",
       channelName: "Curso em Vídeo",
       channelColor: "blue",
@@ -36,15 +36,15 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 4,
       title: "PROFISSÃO DO FUTURO",
-      date: "8 de ago. de 2024",
+      date: "531 mil visualizações  há 5 meses",
       thumbnail: "https://i.ytimg.com/vi/Q0YYA8hSV8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBA3RkyTJpX-JlF4AI23SLZQBSnFQ",
       channelName: "Cortes do Flow [OFICIAL]",
       channelColor: "black",
     },
     {
       id: 5,
-      title: "PROGRAMAÇÃO !!!",
-      date: "18 de nov. de 2023",
+      title: "PROGRAMAÇÃO ?",
+      date: "229 mil visualizações há 1 ano",
       thumbnail: "https://i.ytimg.com/vi/o17EjWGHYBo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD50SlrnAoQ4hn413YInRleDQsCmA",
       channelName: "JovemScript",
       channelColor: "yellow",
@@ -60,15 +60,15 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 7,
       title: "COMO TUDO DEVE SER",
-      date: "25 de abr. de 2014",
+      date: "7,1 mi de visualizações  há 8 meses",
       thumbnail: "https://i.ytimg.com/vi/GNGJV7wFAl0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDNaFf1IcyxSeLgfcN6bw4xSCRGfQ",
       channelName: "Charlie Brown Jr.",
       channelColor: "purple",
     },
     {
       id: 8,
-      title: "Playstation 6 em FASE AVANÇADA ",
-      date: "20 de jan. de 2025",
+      title: "GTA 6, fãs ENLOUQUECEREM ",
+      date: "90 mil visualizações há 7 dia",
       thumbnail: "https://i.ytimg.com/vi/FWgxmZgIKO8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSOD_PhV4uJM-Rwr2e1sP3TBPOTA",
       channelName: "Gameplayrj",
       channelColor: "blue",
@@ -76,7 +76,7 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 9,
       title: "QUEM É O PAGODEIRO?",
-      date: "11 de abr. de 2024",
+      date: "1,4 mi de visualizações há 3 dia",
       thumbnail: "https://i.ytimg.com/vi/xK30Iabee_o/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5B2gGrkzaiieAcsrECC-M3VH5Ew",
       channelName: "Aqueles Caras",
       channelColor: "black",
@@ -84,7 +84,7 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 10,
       title: "TOP 5 áreas de TI",
-      date: "12 de abr. de 2023",
+      date: "306 mil visualizações há 1 ano",
       thumbnail: "https://i.ytimg.com/vi/nipk9E4SJl8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAC8E0XBLUrTBYkJetggu_ZDUqCJw",
       channelName: "Refatorando",
       channelColor: "Orange",
@@ -92,7 +92,7 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 11,
       title: "Estudando PROGRAMAÇÃO",
-      date: "17 de mar. de 2023",
+      date: "184 mil visualizações há 1 mês",
       thumbnail: "https://i.ytimg.com/vi/CXXyZq3A_rI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC0W2CVzgXwKr2xbudNwj33T9V2yA",
       channelName: "Experiência Flamino",
       channelColor: "Brown",
