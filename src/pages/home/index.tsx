@@ -155,6 +155,14 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 19,
+      title: "Glass Animals - Heat Waves",
+      date: "136 mi de visualizações  há 4 anos",
+      thumbnail: "https://i.ytimg.com/vi/KT7F15T9VBI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3_JLbqkwqp8ZpuHuKOZU8umzs-w",
+      channelName: "Glass Animals",
+      channelColor: "Violet", 
+    },
+    {
+      id: 20,
       title: "The INCREDIBLE...",
       date: "202 mi de visualizações  há 5 anos",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
@@ -162,9 +170,6 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "red", 
     },
   ];
-
-  //
-  //https://i.ytimg.com/vi/KT7F15T9VBI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3_JLbqkwqp8ZpuHuKOZU8umzs-w
 
   return (
     <Wrapper>
