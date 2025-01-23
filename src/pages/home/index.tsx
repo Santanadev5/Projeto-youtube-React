@@ -147,6 +147,14 @@ function Home({ openMenu }: HomeProps) {
     },
     {
       id: 18,
+      title: "Tudo sobre Front-End",
+      date: "113 mil visualizações  há 2 anos",
+      thumbnail: "https://yt3.ggpht.com/proxy/a9PIoXhDM6ZgD5XsxFMrB3vsC9oZcCpWOaqAJGBKBovfVvudBcVb_Si-Ba61Qqi4kpySc-KVeeoStJzZ2n3msb-17Eu22DSSWdac2eZCx1NOfFHiXPEiA4_XOR467fyc2Q=w1152-h603-nd",
+      channelName: "Gabriel Rangel",
+      channelColor: "Salmon", 
+    },
+    {
+      id: 19,
       title: "The INCREDIBLE...",
       date: "202 mi de visualizações  há 5 anos",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
@@ -154,6 +162,9 @@ function Home({ openMenu }: HomeProps) {
       channelColor: "red", 
     },
   ];
+
+  //
+  //https://i.ytimg.com/vi/KT7F15T9VBI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3_JLbqkwqp8ZpuHuKOZU8umzs-w
 
   return (
     <Wrapper>
