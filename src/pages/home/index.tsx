@@ -31,7 +31,7 @@ function Home({ openMenu }: HomeProps) {
       date: "507 mil visualizações  há 1 ano",
       thumbnail: "https://i.ytimg.com/vi/ML1fgVfxuRU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-lmqPe07GnnBPBRZcqkKvIOfFCw",
       channelName: "Manual do Mundo",
-      channelColor: "blue", 
+      channelColor: "Turquoise", 
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ function Home({ openMenu }: HomeProps) {
       date: "531 mil visualizações  há 5 meses",
       thumbnail: "https://i.ytimg.com/vi/Q0YYA8hSV8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBA3RkyTJpX-JlF4AI23SLZQBSnFQ",
       channelName: "Cortes do Flow [OFICIAL]",
-      channelColor: "black",
+      channelColor: "Lime",
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ function Home({ openMenu }: HomeProps) {
       date: "7,1 mi de visualizações  há 8 meses",
       thumbnail: "https://i.ytimg.com/vi/GNGJV7wFAl0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDNaFf1IcyxSeLgfcN6bw4xSCRGfQ",
       channelName: "Charlie Brown Jr.",
-      channelColor: "purple",
+      channelColor: "Violet",
     },
     {
       id: 8,
@@ -71,7 +71,7 @@ function Home({ openMenu }: HomeProps) {
       date: "90 mil visualizações há 7 dia",
       thumbnail: "https://i.ytimg.com/vi/FWgxmZgIKO8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSOD_PhV4uJM-Rwr2e1sP3TBPOTA",
       channelName: "Gameplayrj",
-      channelColor: "blue",
+      channelColor: "Red",
     },
     {
       id: 9,
@@ -100,8 +100,8 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 12,
       title: "PSG X MANCHESTER CITY",
-      date: "21 de jan. de 2025",
-      thumbnail: "https://i.ytimg.com/vi/DdRzijp3O9A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAiEXleDlwHpx0EWn5uUTG8dOkPwA",
+      date: "54 mil visualizações há 2 dias",
+      thumbnail: "https://i.ytimg.com/vi/shPbF0l1U3c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB4wL1Y7LL9IJ2MICC2osVZylEO6A",
       channelName: "TNT Sports Brasil",
       channelColor: "pink",
     },
@@ -164,9 +164,9 @@ function Home({ openMenu }: HomeProps) {
     {
       id: 20,
       title: "The INCREDIBLE...",
-      date: "202 mi de visualizações  há 5 anos",
+      date: "11 mi de visualizações há 11 anos",
       thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVAvQS6pixpNLxBh99PaV_ysPiGn_aUs6tg&s",
-      channelName: "South Park",
+      channelName: "South Park Studios",
       channelColor: "red", 
     },
   ];
