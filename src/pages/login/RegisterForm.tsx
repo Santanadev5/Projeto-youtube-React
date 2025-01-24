@@ -68,12 +68,12 @@ const RegisterForm: React.FC = () => {
           />
         </div>
         <div style={styles.inputContainer}>
-          <label htmlFor="confirmPassword" style={styles.label}>Repetir Senha</label>
+          <label htmlFor="confirmPassword" style={styles.label}>Digite sua senha novamente</label>
           <input
             type="password"
             id="confirmPassword"
             name="confirmPassword"
-            placeholder="Repita sua senha"
+            placeholder="Digite sua senha novamente"
             value={formData.confirmPassword}
             onChange={handleChange}
             required
@@ -141,7 +141,7 @@ const styles: Record<string, React.CSSProperties> = {
     outline: "none",
   },
   button: {
-    backgroundColor: "#1a73e8",
+    backgroundColor: "#CC0000",
     color: "white",
     border: "none",
     padding: "12px",

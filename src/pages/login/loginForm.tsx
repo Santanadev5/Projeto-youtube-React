@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import RegisterForm from "./RegisterForm"; // Importando o componente de registro
+import RegisterForm from "./RegisterForm";
 
 const LoginForm: React.FC = () => {
   const [showRegister, setShowRegister] = useState(false);
 
-  // Alternar entre login e criar conta
   if (showRegister) {
     return <RegisterForm />;
   }
@@ -36,7 +35,7 @@ const LoginForm: React.FC = () => {
             style={styles.input}
           />
         </div>
-        <button type="submit" style={styles.button}>Próxima</button>
+        <button type="submit" style={styles.button}>Entrar</button>
         <p style={styles.footerText}>
           Não tem uma conta?{" "}
           <span
@@ -99,7 +98,7 @@ const styles: Record<string, React.CSSProperties> = {
     outline: "none",
   },
   button: {
-    backgroundColor: "#1a73e8",
+    backgroundColor: "#CC0000",
     color: "white",
     border: "none",
     padding: "12px",

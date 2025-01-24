@@ -76,12 +76,12 @@ export const HeaderButton = styled.div `
 `;
 
 export const LoginButton = styled.button`
-    background-color:  #CC0000; /* Vermelho padrão */  
-    color: white; /* Cor do texto */
-    border: none; /* Remove borda padrão */
-    border-radius: 20px; /* Bordas arredondadas */
-    padding: 6px 12px; /* Espaçamento interno */
-    font-size: 14px; /* Tamanho da fonte */
+    background-color:  #CC0000;   
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 6px 12px; 
+    font-size: 14px; 
     cursor: pointer; 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s, box-shadow 0.3s; 
