@@ -1,30 +1,26 @@
 import React, { useState } from "react";
+import RegisterForm from "./RegisterForm"; // Importando o componente de registro
 
 const LoginForm: React.FC = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
+  const [showRegister, setShowRegister] = useState(false);
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    console.log("Email:", email);
-    console.log("Password:", password);
-    // implementar a lógica de envio para a API
-  };
+  // Alternar entre login e criar conta
+  if (showRegister) {
+    return <RegisterForm />;
+  }
 
   return (
     <div style={styles.container}>
       <h2 style={styles.title}>Fazer login</h2>
       <p style={styles.subtitle}>Prosseguir no YouTube</p>
-      <form onSubmit={handleSubmit} style={styles.form}>
+      <form onSubmit={(e) => e.preventDefault()} style={styles.form}>
         <div style={styles.inputContainer}>
           <label htmlFor="email" style={styles.label}>E-mail</label>
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Digite seu e-mail"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
             required
             style={styles.input}
           />
@@ -32,28 +28,23 @@ const LoginForm: React.FC = () => {
         <div style={styles.inputContainer}>
           <label htmlFor="password" style={styles.label}>Senha</label>
           <input
-            type={showPassword ? "text" : "password"}
+            type="password"
             id="password"
+            name="password"
             placeholder="Digite sua senha"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
             required
             style={styles.input}
           />
-          <div style={styles.checkboxContainer}>
-            <input
-              type="checkbox"
-              id="showPassword"
-              checked={showPassword}
-              onChange={() => setShowPassword(!showPassword)}
-              style={styles.checkbox}
-            />
-            <label htmlFor="showPassword" style={styles.checkboxLabel}>Mostrar senha</label>
-          </div>
         </div>
         <button type="submit" style={styles.button}>Próxima</button>
-        <p>
-          <a href="/create-account" style={styles.link}>Criar conta</a>
+        <p style={styles.footerText}>
+          Não tem uma conta?{" "}
+          <span
+            style={{ color: "#1a73e8", cursor: "pointer", textDecoration: "underline" }}
+            onClick={() => setShowRegister(true)}
+          >
+            Criar conta
+          </span>
         </p>
       </form>
     </div>
@@ -62,9 +53,9 @@ const LoginForm: React.FC = () => {
 
 const styles: Record<string, React.CSSProperties> = {
   container: {
-    maxWidth: "450px", // Ajuste na largura do formulário
-    width: "90%", // Responsivo: ocupa 90% da largura da tela
-    margin: "50px auto", // Espaçamento superior para centralizar melhor
+    maxWidth: "450px",
+    width: "90%",
+    margin: "50px auto",
     textAlign: "center",
     fontFamily: "Arial, sans-serif",
     border: "1px solid #ddd",
@@ -80,9 +71,9 @@ const styles: Record<string, React.CSSProperties> = {
     fontWeight: "bold",
   },
   subtitle: {
-    marginBottom: "25px",
-    fontSize: "14px",
-    color: "#777",
+    marginBottom: "20px",
+    fontSize: "16px",
+    color: "#555",
   },
   form: {
     display: "flex",
@@ -106,22 +97,6 @@ const styles: Record<string, React.CSSProperties> = {
     borderRadius: "6px",
     boxSizing: "border-box",
     outline: "none",
-    transition: "border-color 0.3s",
-  },
-  inputFocus: {
-    borderColor: "#1a73e8",
-  },
-  checkboxContainer: {
-    display: "flex",
-    alignItems: "center",
-    marginTop: "10px",
-  },
-  checkbox: {
-    marginRight: "8px",
-  },
-  checkboxLabel: {
-    fontSize: "14px",
-    color: "#555",
   },
   button: {
     backgroundColor: "#1a73e8",
@@ -135,14 +110,10 @@ const styles: Record<string, React.CSSProperties> = {
     transition: "background-color 0.3s",
     outline: "none",
   },
-  buttonHover: {
-    backgroundColor: "#1558b0",
-  },
-  link: {
-    marginTop: "10px",
-    color: "#1a73e8",
-    textDecoration: "none",
+  footerText: {
+    marginTop: "15px",
     fontSize: "14px",
+    color: "#555",
   },
 };
 
