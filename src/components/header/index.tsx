@@ -4,6 +4,8 @@ import Logo from '../../assets/youtube.png';
 import SearchIcon from '../../assets/lupa.png';
 import MicIcon from '../../assets/formato-preto-do-microfone.png';
 import VideoIcon from '../../assets/camera-de-video.png';
+import NovoIcon from "../../assets/Novo-video.png"
+import NovoIcon2 from "../../assets/icone2.png"
 import NotificationIcon from '../../assets/notificacao.png';
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
@@ -50,10 +52,10 @@ function Header({ openMenu, setOpenMenu}: IProps){
 
             <HeaderButton>
                 <ButtonContainer margin ='0 0 0 10px'>
-                    <ButtonIcon alt="" src={ VideoIcon }/>
+                    <ButtonIcon alt="" src={ NovoIcon2 }/>
                 </ButtonContainer>
 
-                <ButtonContainer margin ='0 0 0 10px'>
+                <ButtonContainer margin ='0 0 0 5px'>
                     <ButtonIcon alt="" src={ NotificationIcon }/>
                 </ButtonContainer> 
 
