@@ -11,10 +11,14 @@
 - Typescript  
 - Node JS
 - MySQL
+- Postman
 
 ## 📚 **Bibliotecas**
 - Axios  
-- Styled-components  
+- Styled-components
+
+## 💻 **Projeto** 
+Esta é uma aplicação construída em React com TypeScript, baseada no YouTube. Nela, é possível criar uma conta e fazer login. Sua interface é bastante fiel à original e inclui algumas funcionalidades, como a navegação por categorias. O projeto consome a API de dados do YouTube e também possui uma API própria, construída com Node.js, responsável pelo cadastro de novos usuários, autenticação, login e obtenção de dados do usuário logado. Essa API se integra com um banco de dados MySQL e foi testada com o Postman.
 
 ---
 
