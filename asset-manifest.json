@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Projeto-youtube-React/static/css/main.da15e721.css",
+    "main.js": "/Projeto-youtube-React/static/js/main.56563b57.js",
+    "static/media/shorts-removebg-preview.png": "/Projeto-youtube-React/static/media/shorts-removebg-preview.5e29f6d2b8abe615bb8c.png",
+    "static/media/youtube.png": "/Projeto-youtube-React/static/media/youtube.854def19fee48db3c66f.png",
+    "static/media/controle-de-video-game.png": "/Projeto-youtube-React/static/media/controle-de-video-game.c0a87b4fc99cda9a8ebc.png",
+    "static/media/fire.png": "/Projeto-youtube-React/static/media/fire.43b23d2376e3dbefc6c8.png",
+    "static/media/trofeu.png": "/Projeto-youtube-React/static/media/trofeu.87a94bcff37538d354b6.png",
+    "static/media/ideia.png": "/Projeto-youtube-React/static/media/ideia.855be817271c9d797d6f.png",
+    "static/media/ao-vivo.png": "/Projeto-youtube-React/static/media/ao-vivo.8018b5e77c0b0fc34376.png",
+    "static/media/musica.png": "/Projeto-youtube-React/static/media/musica.e6e0745890edb1d40bfc.png",
+    "static/media/notificacao.png": "/Projeto-youtube-React/static/media/notificacao.b6e1be4108a318e88bd9.png",
+    "static/media/shopping.png": "/Projeto-youtube-React/static/media/shopping.82722f179829d449d8f2.png",
+    "index.html": "/Projeto-youtube-React/index.html",
+    "main.da15e721.css.map": "/Projeto-youtube-React/static/css/main.da15e721.css.map",
+    "main.56563b57.js.map": "/Projeto-youtube-React/static/js/main.56563b57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da15e721.css",
+    "static/js/main.56563b57.js"
+  ]
+}
