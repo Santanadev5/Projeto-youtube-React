@@ -1,8 +1,13 @@
-function Shorts() {
+import * as S from "./styles";
+
+function  Shorts() {
     return (
-        <div>
-            Shorts
-        </div>
+        <S.Container>
+            <S.Message>
+                Página em construção !!!<br />
+                Volte para o Início
+            </S.Message>
+        </S.Container>
     );
 }
 

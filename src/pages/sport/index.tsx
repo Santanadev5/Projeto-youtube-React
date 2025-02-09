@@ -1,8 +1,13 @@
-function Sport() {
+import * as S from "./styles";
+
+function  Sport() {
     return (
-        <div>
-            Sport
-        </div>
+        <S.Container>
+            <S.Message>
+                Página em construção !!!<br />
+                Volte para o Início
+            </S.Message>
+        </S.Container>
     );
 }
 

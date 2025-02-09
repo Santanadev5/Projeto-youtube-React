@@ -1,8 +1,13 @@
+import * as S from "./styles";
+
 function Library() {
     return (
-        <div>
-            Library
-        </div>
+        <S.Container>
+            <S.Message>
+                Página em construção !!!<br />
+                Volte para o Início
+            </S.Message>
+        </S.Container>
     );
 }
 
